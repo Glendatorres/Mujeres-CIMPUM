@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/Mujeres-CIMPUM/",
             "outputPath": "dist/mujeres-cimpum",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -97,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b8307c30-3cbe-4f74-9904-dee9cc8ff840"
   }
 }
